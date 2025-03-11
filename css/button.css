@@ -1,0 +1,207 @@
+.auth-buttons {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background: white;
+    padding: 4px;
+    align-items: center;
+    position: relative;
+}
+
+.auth-buttons a,
+.auth-buttons button {
+    border: none;
+    outline: none;
+    width: 100px;
+    /* Fixed width to prevent movement */
+    height: 40px;
+    /* Fixed height */
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+/* Default Sign Up button */
+.auth-buttons .signup-btn {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Sign Up glows when hovered */
+.auth-buttons .signup-btn:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+}
+
+/* When Log In is hovered, it gets the gradient & glow, while Sign Up becomes transparent */
+.auth-buttons button:hover {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+}
+
+.auth-buttons button:hover+.signup-btn {
+    background: transparent;
+    color: #333;
+    border: 1px solid #FCD404;
+    box-shadow: none;
+}
+
+/* Log Out Button */
+#log_out {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* Glowing effect on hover */
+#log_out:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
+
+#main_si {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#main_si:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
+
+#reg_btn {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#reg_btn:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
+
+#sendmess {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+#sendmess:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
+
+#check1 {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#check1:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
+
+#check2 {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#check2:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
+
+#check3 {
+    background: linear-gradient(to right, #FCD404, #FB6F74);
+    color: white;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#check3:hover {
+    box-shadow: 0px 0px 12px rgba(252, 212, 4, 0.7);
+    transform: scale(1.05);
+}
